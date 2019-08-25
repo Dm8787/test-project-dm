@@ -41,8 +41,8 @@
           <ul>
             <li class="Filter-option">
               <input class="visually-hidden-filter-input-filter-input-checkbox" type="checkbox"
-                name="Baxter of California" id="filter-Baxter-of-California" checked> 
-                <label for="filter-Baxter-of-California">Baxter of California</label></li>
+                name="Baxter of California" id="filter-Baxter-of-California" checked>
+              <label for="filter-Baxter-of-California">Baxter of California</label></li>
             <li class="Filter-option">
               <input class="visually-hidden-filter-input-filter-input-checkbox" type="checkbox" name="Mr-Natty"
                 id="Filter-Mr-Natty">
@@ -56,15 +56,28 @@
                 id="filter-Malin+Goetz">
               <label for="filter-Malin+Goetz">Malin+Goetz</label></li>
             <li class="Filter-option"><input class="visually-hidden-filter-input-filter-input-checkbox" type="checkbox"
-                name="Murray’s">Murray’s</li>
+                name="Murray’s" id="Filter-Murray’s">
+              <label for="Filter-Murray’s">Murray’s</label></li>
             <li class="Filter-option">
               <input class="visually-hidden-filter-input-filter-input-checkbox" type="checkbox" name="American Crew"
                 id="filter-American Crew" checked>
-              <label for="filter-American Crew"></label>American Crew</li>
+              <label for="filter-American Crew">American Crew</label></li>
           </ul>
         </fieldset>
         <fieldset>
           <legend>Группа товаров</legend>
+          <ui>
+            <li><input class="visually-hidden-filter-input-filter-input-radio" type="radio" name="product-group"
+                id="filter-shave" value="shaving">
+              <label for="filter-shave">Бритвенные
+                принадлежности</label></li>
+            <li><input class="visually-hidden-filter-input-filter-input-radio" type="radio" name="product-group"
+                id="filter-care" value="">
+              <label for="filter-care">Средства для ухода</label></li>
+            <li><input class="visually-hidden-filter-input-filter-input-radio" type="radio" name="product-group"
+                id="filter-accessories" value="accessories">
+              <label for="filter-accessories">Аксессуары</label></li>
+          </ui>
         </fieldset>
       </form>
     </section>
