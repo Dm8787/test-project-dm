@@ -10,8 +10,49 @@ body {
   text-transform: uppercase;
 
   background-color: #000000;
-  background-image: url("..img/bg.jpg");
+  background-image: url("img/bg.jpg");
   background-position: top center;
   background-repeat: no-repeat;
+}
 
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+
+  background-color: #000000;
+}
+
+.site-navigation,
+.user-navigation {
+  list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: #ffffff;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  background-color: #242424;
+}
+
+.Features-list {
+  list-style: none;
+}
+
+.Feature-item {
+  text-align: center;
+}
+
+.Feature-item h3 {
+  font-size: 30px;
+  line-height: 42px;
 }
