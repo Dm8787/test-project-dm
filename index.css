@@ -37,7 +37,6 @@ a {
   background-color: #663d15;
 }
 
-
 .main-navigation {
   font-size: 16px;
   line-height: 20px;
@@ -126,5 +125,50 @@ a {
 .footer-contacts a {
   color: #ffffff;
   text-decoration: underline;
+}
 
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+  color: #ffffff;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.modal {
+  color: #000000;
+
+  background-color: #f8f5f2;
+  background-image: url(img/pattern-light1.jpg);
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.modal h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.login-form input [type="text"],
+.login-form input [type="password"] {
+  font: inherit;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #f9f6f3;
+  border: 2px solid #000000;
 }
