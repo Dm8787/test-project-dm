@@ -15,6 +15,15 @@ body {
   background-repeat: no-repeat;
 }
 
+.inner-page {
+  color: #000000;
+
+  background-color: #f7f4f1;
+  background-image: url(img/pattern-light.jpg);
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
 a {
   text-decoration: none;
 }
@@ -142,6 +151,7 @@ a {
 .footer-copyright {
   text-align: center;
 }
+
 .footer-copyright .button:hover,
 .footer-copyright .button:focus {
   color: #000000;
@@ -163,12 +173,31 @@ a {
   line-height: 42px;
 }
 
-.login-form input [type="text"],
-.login-form input [type="password"] {
+.login-form input[type="text"],
+.login-form input[type="password"] {
   font: inherit;
   color: #000000;
   text-transform: uppercase;
 
   background-color: #f9f6f3;
   border: 2px solid #000000;
+}
+
+.login-form input:focus {
+  border-color: #663d15;
+}
+
+.login-checkbox:hover,
+.login-checkbox:focus {
+  color: #663d15;
+}
+
+.restore {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.restore:hover,
+.restore:focus {
+  text-decoration: none;
 }
