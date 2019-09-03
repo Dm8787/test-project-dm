@@ -18,7 +18,7 @@ body {
 .inner-page {
   color: #000000;
 
-  background-color: #f7f4f1;
+  background-color: #f9f6f3;
   background-image: url(img/pattern-light.jpg);
   background-position: 0 0;
   background-repeat: repeat;
@@ -121,6 +121,43 @@ a {
 .appointment-item input:focus {
   border-color: #663d15;
 }
+
+.page-title {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.breadcrumds {
+  list-style: none;
+}
+
+.breadcrumds a {
+  color: #000000;
+}
+
+.breadcrumds a:hover,
+.breadcrumds a:focus {
+  text-decoration: underline;
+}
+
+.breadcrumds-current {
+  color: #aba9a7;
+}
+
+.Filter fieldset {
+  border: none;
+}
+
+.Filter legend {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.Filter ul {
+  list-style: none;
+  line-height: 17px;
+}
+
 
 .main-footer {
   color: #ffffff;
