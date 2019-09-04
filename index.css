@@ -155,7 +155,40 @@ a {
 
 .Filter ul {
   list-style: none;
-  line-height: 17px;
+  line-height: 18px;
+}
+
+.filter-input:hover+label,
+.filter-input:focus+label {
+  color: #663d15;
+}
+
+.filter-input:disabled+label {
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+.Catalog-list {
+  list-style: none;
+}
+
+.Catalog-item {
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Catalog-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.Catalog-item a {
+  color: #000000;
+}
+
+.Catalog-item h3 {
+  font-size: 14px;
+  line-height: 18px;
 }
 
 
