@@ -236,6 +236,39 @@ a {
   background-color: #ffffff;
 }
 
+.Product-photo-preview {
+  list-style: none;
+}
+
+.Product-photo-preview li {
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.Product-photos-full {
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.Product-article {
+  text-align: right;
+  color: #aeaeae;
+}
+
+.Product-price b {
+  text-align: center;
+  line-height: 20px;
+
+  background-color: #e5e5e5;
+}
+
+.Product-info h3 {
+  line-height: 30px;
+  font-size: 24px;
+}
+
+.Product-info ul {
+  list-style: none;
+}
+
 .main-footer {
   color: #ffffff;
 
