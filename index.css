@@ -158,12 +158,12 @@ a {
   line-height: 18px;
 }
 
-.filter-input:hover+label,
-.filter-input:focus+label {
+.filter-input:hover + label,
+.filter-input:focus + label {
   color: #663d15;
 }
 
-.filter-input:disabled+label {
+.filter-input:disabled + label {
   color: #000000;
 
   opacity: 0.5;
@@ -347,4 +347,33 @@ a {
 .restore:hover,
 .restore:focus {
   text-decoration: none;
+}
+/* Сеточные стили */
+html,
+body {
+  min-width: 1122px;
+  min-height: 1750px;
+}
+
+.main-header {
+  margin-bottom: 75px;
+}
+
+.main-header-logo {
+  width: 368px;
+  height: 153px;
+}
+
+.site-navigation {
+  margin: 0px;
+  padding: 0px;
+
+  list-style: none;
+}
+
+.user-navigation {
+  margin: 0px;
+  padding: 0px;
+
+  list-style: none;
 }
